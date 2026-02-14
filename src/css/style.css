@@ -89,7 +89,7 @@ p{
 }
 
 .principal{
-    padding: 2rem 1.25rem 0 1.25rem;
+    padding: 0 1.25rem 0 1.25rem;
 }
 
 .svg{
@@ -204,7 +204,8 @@ p{
     justify-content: center;
 }
 
-.about__project h2, p{
+.about__project h2,
+.about__project p {
     text-align: left;
     padding: 1rem 1rem 0 1rem;
 }
