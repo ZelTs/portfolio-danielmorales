@@ -89,7 +89,7 @@ p{
 }
 
 .principal{
-    padding: 4rem 1.25rem 0 1.25rem;
+    padding: 2rem 1.25rem 0 1.25rem;
 }
 
 .svg{
@@ -105,7 +105,7 @@ p{
 .hero{
     background-color: var(--midnight-plum);
     color: var(--white-text);
-    padding: 3rem 0.75rem 10rem 0.75rem;
+    padding: 5.25rem 0.75rem 10rem 0.75rem;
     border-radius: 10px;
 }
 
@@ -180,14 +180,21 @@ p{
 }
 
 .project__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background-color: var(--white-smoke);
     border-radius: 10px;
     color: var(--black-text);
 }
 
+.img__container{
+    padding: 1rem 1rem 0 1rem;
+}
+
 .img__project{
-    width: 350px;
-    margin: 1.25rem 0 0 0;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -195,4 +202,29 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.about__project h2, p{
+    text-align: left;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.about__project p{
+    font-weight: normal;
+}
+
+.btn__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.btn__container a{
+    background-color: var(--cosmic-violet);
+    color: var(--white-text);
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    width: 35%;
 }
