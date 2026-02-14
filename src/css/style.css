@@ -201,6 +201,7 @@ p{
 .img__project{
     width: 100%;
     border-radius: 10px;
+    border: 1px solid var(--border-plum);
 }
 
 .about__project{
@@ -240,4 +241,9 @@ p{
     text-decoration: none;
     font-weight: 500;
     width: 35%;
+}
+
+.model{
+    font-size: 0.675rem;
+    font-weight: bold;
 }
