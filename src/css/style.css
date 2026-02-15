@@ -166,7 +166,6 @@ p{
 .tag.pink   {   --bg: var(--pink);       --border: var(--dark-pink);    --font-color: var(--dark-pink-text);}
 
 .experience{
-    margin: 4rem 0 0 0;
     border-radius: 10px;
     color: var(--white-text);
 }
@@ -258,7 +257,7 @@ p{
 
 .job h2{
     font-weight: bold;
-    padding: 3rem 0;
+    padding: 1rem 0 3rem 0;
 }
 
 .job__img__container{
@@ -273,4 +272,33 @@ p{
     width: 300px;
     border-radius: 10px;
     border: 1px solid var(--carbon-black);
+}
+
+footer{
+    background-color: var(--white-smoke);
+    color: var(--midnight-plum);
+    padding: 8rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    padding: 2rem 0;
+}
+
+.footer__svg{
+    padding: 5rem 0 3rem 0;
+}
+
+.footer__img{
+    width: 50px;
+    padding: 1.25rem;
+}
+
+.flaticon{
+    color: var(--midnight-plum);
+    font-weight: 500;
+    padding: 0 0 5rem 0;
 }
