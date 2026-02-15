@@ -307,6 +307,10 @@ footer p{
     padding: 1.25rem;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .flaticon{
     color: var(--midnight-plum);
     font-weight: 500;
