@@ -34,9 +34,9 @@
     --dark-red: #cc8a8a;
     --dark-red-text: #8f3f3f;
 
-    --pink: #ffe7fd;
-    --dark-pink: #ccb1ca;
-    --dark-pink-text:#754372;
+    --pink: #f0d4ed;
+    --dark-pink: #c499c1;
+    --dark-pink-text:#966292;
 }
 
 html,
@@ -118,16 +118,18 @@ p{
     border-radius: 10px;
 }
 
-.hero img{
-    width: 250px;
-}
-
 .hero p{
     font-weight: normal;
     text-align: center;
 }
 
 .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2.25rem 1rem 1.25rem 1rem;
     background-color: var(--white-smoke);
     margin: -5rem 1.25rem 1.25rem 1.25rem;
     border-radius: 10px;
@@ -137,7 +139,7 @@ p{
 .skills h2{
     font-weight: 600;
     color: var(--cosmic-violet);
-    padding: 0 0 1.25rem 0;
+
 }
 
 .skill{
@@ -233,7 +235,7 @@ p{
 .about__project p {
     text-align: left;
     padding: 1rem 1rem 0 1rem;
-    color: var(--midnight-plum);
+    color: var(--carbon-black);
 }
 
 .about__project p{
@@ -315,4 +317,96 @@ footer p{
     color: var(--midnight-plum);
     font-weight: 500;
     padding: 0 0 5rem 0;
+}
+
+@media (min-width: 1365px) {
+    
+    .container{
+        padding: 2.25rem 5rem 1.25rem 5rem;
+    }
+
+    .img{
+        width: 200px;
+        padding: 1.25rem;
+    }
+
+    h1{
+       font-size: 4.25rem;
+    }
+
+    h2{
+        font-size: 2.75rem;
+    }
+
+    p{
+        font-size: 1.85rem;
+    }
+
+    .principal{
+        padding: 0 5rem 0 5rem;
+    }
+
+    .svg{
+        width: 100px;
+        padding: 2rem 0 0 2rem;
+    }
+
+    .main__img{
+        width: 275px;
+    }
+
+    .hero{
+        padding: 5.25rem 5rem 15rem 5rem;
+    }
+
+    .hero h2{
+        font-weight: bold;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero p{   
+        line-height: 1.35;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: -10rem 5rem 1.25rem 5rem;
+    }
+
+    .skill{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .nd{
+        padding: 1.75rem 0 1.5rem 0;
+    }
+
+    .skill h2{
+        font-size: 2.25rem;
+    }
+
+    .skill p{
+        font-size: 1.675rem;
+        padding: 1rem 1.25rem 2rem 1.25rem;
+    }
+
+    .label__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tag{
+        width: 60%;
+        font-size: 1.75rem;
+    }
+
+    .projects{
+        padding: 2.25rem 5rem 1rem 5rem;
+    }
+
 }
