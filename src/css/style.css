@@ -319,7 +319,7 @@ footer p{
     padding: 0 0 5rem 0;
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1366px) {
     
     .container{
         padding: 2.25rem 5rem 1.25rem 5rem;
@@ -398,6 +398,10 @@ footer p{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .label__container span{
+        width: 40%;
     }
 
     .tag{
@@ -493,4 +497,216 @@ footer p{
         padding: 1rem 0 5rem 0;
     }
 
+}
+
+@media (min-width: 1750px) {
+
+    .container{
+        padding: 2.25rem 8rem 1.25rem 8rem;
+    }
+
+    .img{
+        width: 225px;
+        padding: 1.25rem;
+    }
+
+    h1{
+        font-size: 6.5rem;
+    }
+
+    h2{
+        font-size: 3.2rem;
+    }
+
+    p{
+        font-size: 2.25rem;
+    }
+
+    .principal{
+        padding: 0 8rem 0 8rem;
+    }
+
+    .main__img{
+        width: 320px;
+    }
+
+    .principal p{
+        padding: 2rem 8rem;
+    }
+
+    .svg{
+        width: 120px;
+        padding: 2rem 0 0 2rem;
+    }
+
+    .hero{
+        padding: 10rem 8rem 15rem 8rem;
+    }
+
+    .hero h2{
+        font-weight: bold;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero p{   
+        line-height: 1.35;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: -10rem 8rem 1.25rem 8rem;
+    }
+
+    .skill{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .nd{
+        padding: 1.75rem 0 1.5rem 0;
+    }
+
+    .skill h2{
+        font-size: 2.25rem;
+    }
+
+    .skill p{
+        font-size: 1.675rem;
+        padding: 1rem 1.25rem 2rem 1.25rem;
+    }
+
+    .label__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tag{
+        width: 60%;
+        font-size: 1.375rem;
+    }
+
+    .experience{
+        padding: 4.25rem 5rem 3rem 5rem;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        padding: 2.25rem 1.25rem 1rem 1.25rem;
+    }
+
+    .project__container {
+        flex: 1 1 350px;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .project__details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .labels {
+        width: 30%;
+        padding: 0.5rem 0 1.25rem 1rem;
+    }
+
+    .label__container span{
+        width: 30%;
+    }
+
+    .img__container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .img__project {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .about__project {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem 0 0 0;
+    }
+
+    .about__project h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .about__project p {
+        font-size: 1.125rem;
+        padding: 1.25rem 1.25rem;
+    }
+
+    .model {
+        font-size: 0.875rem;
+    }
+
+    .btn__container {
+        padding: 0 1.25rem 2rem 1.25rem;
+    }
+
+    .btn__container a {
+        transition: 0.2s ease-in-out;
+    }
+
+    .btn__container a:hover {
+        background-color: var(--cosmic-violet);
+    }
+
+    .btn__container a:active {
+        background-color: var(--carbon-black);
+    }
+
+    .job{
+        padding: 1rem 5rem 0 5rem;
+    }
+
+    .job h2{
+        padding: 1rem 0 5rem 0;
+    }
+
+    .job__img__container{
+        justify-content: space-evenly;
+    }
+
+    .img__format{
+        width: 350px;
+        
+    }
+
+    footer p{
+        padding: 3.5rem 0;
+    }
+
+    .footer__svg{
+        padding: 0 0 6rem 0;
+    }
+
+    .network{
+        padding: 3rem 0;
+    }
+
+    .network img{
+        width: 80px;
+    }
+
+    .flaticon{
+        padding: 0 0 1.75rem 0;
+    }
 }
