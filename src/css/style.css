@@ -261,6 +261,17 @@ p{
     border-radius: 8px;
 }
 
+.all__projects a{
+    border: 1px solid var(--midnight-plum);
+    color: var(--midnight-plum);
+    border-radius: 30px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1.25rem 2.5rem 1.25rem 2.5rem;
+    margin: -2rem 0 2rem 0;
+}
+
 .model{
     font-size: 0.675rem;
     font-weight: bold;
@@ -467,6 +478,20 @@ footer p{
     .about__project p {
         font-size: 1.25rem;
         padding: 0.25rem 1.25rem 1.25rem 1.25rem;
+    }
+
+    .all__projects a {
+        border: 2px solid var(--midnight-plum);
+        font-weight: bold;
+        padding: 1.25rem 3.5rem 1.25rem 3.5rem;
+        margin: 0 0 2rem 0;
+        transition: 0.2s ease-in-out;
+        font-size: 1.25rem;
+    }
+
+    .all__projects a:hover {
+        background-color: var(--midnight-plum);
+        color: var(--bright-snow);
     }
 
     .model {
